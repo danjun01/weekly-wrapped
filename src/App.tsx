@@ -1,12 +1,13 @@
+import { Avatar } from '@nextui-org/react'
 import './App.css'
-import { NextUIProvider } from '@nextui-org/react'
+import Header from './components/Header'
 
 function App() {
 
   return (
-    <NextUIProvider>
-
-    </NextUIProvider>
+    <>
+      <Header />
+    </>
   )
 }
 
